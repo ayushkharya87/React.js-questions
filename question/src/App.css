@@ -1,0 +1,45 @@
+/* nav icon */
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu .open {
+    display: block;
+}
+
+@media (max-width:760px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        background-color: grey;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .menu li {
+        padding: 10px;
+    }
+};
+/* ---------- */
+
+
+/* ThemeSwitch */
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}
